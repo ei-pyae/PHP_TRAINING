@@ -10,23 +10,23 @@
 
 <body>
     <?php
-    echo "<pre>";
-    for ($i = 1; $i < 6; $i++) {
-        for ($j = $i; $j < 8; $j++)
-            echo "&nbsp;";
-        for ($j = 2 * $i - 1; $j > 0; $j--)
-            echo ("*");
-        echo "<br>";
-    }
-    $n = 8;
-    for ($i = 6; $i > 0; $i--) {
-        for ($j = $n - $i; $j > 0; $j--)
-            echo "&nbsp;";
-        for ($j = 2 * $i - 1; $j > 0; $j--)
-            echo ("*");
-        echo "<br>";
-    }
-    echo "</pre>";
+        echo "<pre>";
+        for ($i = 1; $i < 6; $i++) {
+            for ($j = $i; $j < 8; $j++)
+                echo "&nbsp;";
+            for ($j = 2 * $i - 1; $j > 0; $j--)
+                echo ("*");
+            echo "<br>";
+        }
+        $n = 8;
+        for ($i = 6; $i > 0; $i--) {
+            for ($j = $n - $i; $j > 0; $j--)
+                echo "&nbsp;";
+            for ($j = 2 * $i - 1; $j > 0; $j--)
+                echo ("*");
+                echo "<br>";
+        }
+        echo "</pre>";
     ?>
 </body>
 
